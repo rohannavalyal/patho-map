@@ -1,0 +1,180 @@
+/* Base Reset & Typography */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #0D1B16; /* Very dark green */
+    color: #DFFBE5; /* Mint Cream */
+    line-height: 1.6;
+}
+
+/* Navigation Bar */
+nav {
+    background-color: #14532D; /* Dark green */
+    padding: 1rem 2rem;
+    box-shadow: 0 2px 10px rgba(0, 255, 128, 0.2);
+    display: flex;
+    gap: 1rem;
+    justify-content: center;
+    flex-wrap: wrap;
+    border-bottom: 1px solid #34D399;
+}
+
+nav a {
+    text-decoration: none;
+    color: #DFFBE5;
+    font-weight: 500;
+    background-color: transparent;
+    padding: 0.5rem 1rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+nav a:hover {
+    background-color: #34D399;
+    color: #0D1B16;
+    box-shadow: 0 0 10px #34D399;
+}
+
+/* Main Content Container */
+.content {
+    max-width: 1200px;
+    margin: 2rem auto;
+    padding: 2rem;
+    background-color: #1A2E25; /* Deep forest green */
+    color: #DFFBE5;
+    border-radius: 12px;
+    box-shadow: 0 4px 20px rgba(0, 255, 128, 0.1);
+}
+
+/* Headings */
+h2 {
+    color: #D1FADF;
+    font-size: 2rem;
+    margin-bottom: 1rem;
+}
+
+/* Forms */
+form {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+label {
+    display: block;
+    margin-bottom: 0.5rem;
+    font-weight: 600;
+    color: #A7F3D0;
+}
+
+/* Hidden file input */
+input[type="file"] {
+    display: none;
+}
+
+/* Styled Labels as Buttons */
+.file-label {
+    display: inline-block;
+    background-color: #166534; /* Dark emerald */
+    color: #D1FADF;
+    padding: 0.75rem 1.25rem;
+    border-radius: 6px;
+    cursor: pointer;
+    font-weight: 600;
+    text-align: left;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.file-label:hover {
+    background-color: #22C55E;
+    color: #0D1B16;
+    box-shadow: 0 0 12px #22C55E;
+}
+
+.file-name {
+    margin-top: 0.5rem;
+    font-size: 0.9rem;
+    color: #A7F3D0;
+    font-style: italic;
+}
+
+/* Submit Button */
+input[type="submit"], .upload-btn {
+    background-color: #16A34A; /* Green */
+    color: #DFFBE5;
+    padding: 0.75rem 1.5rem;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 1rem;
+    font-weight: 600;
+    transition: all 0.3s ease;
+    width: 100%;
+}
+
+input[type="submit"]:hover,
+.upload-btn:hover {
+    background-color: #065F46;
+    color: #D1FADF;
+    box-shadow: 0 0 10px #10B981;
+}
+
+/* Tables */
+table.data {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 2rem;
+    border-radius: 10px;
+    overflow: hidden;
+    background-color: #1F2937;
+    color: #DFFBE5;
+    box-shadow: 0 2px 8px rgba(0,255,128,0.1);
+}
+
+table.data th {
+    background-color: #14532D;
+    color: #DFFBE5;
+    padding: 1rem;
+    text-align: left;
+}
+
+table.data td {
+    padding: 1rem;
+    border-bottom: 1px solid #374151;
+}
+
+table.data tr:hover {
+    background-color: #064E3B;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+    nav {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .content {
+        padding: 1rem;
+    }
+
+    nav a {
+        margin: 0.25rem;
+    }
+}
+
+/* Upload form layout */
+.upload-form {
+    display: flex;
+    flex-direction: column;
+    gap: 1.5rem;
+    padding: 2rem;
+    background-color: #1E293B; /* Slate */
+    border-radius: 12px;
+    box-shadow: 0 2px 10px rgba(0, 255, 128, 0.1);
+}
+
+.upload-form .form-group {
+    display: flex;
+    flex-direction: column;
+}

@@ -1,0 +1,16 @@
+Export_Info
+Generated on: 2025-05-15 19:35:12.629340
+Total samples: 10
+Reference sequence: sample_001|India|2022-01-01
+
+SampleID,MutationCount,Country,Latitude,Longitude,Date
+sample_001,0,India,20.5937,78.9629,2022-01-01
+sample_002,1,USA,37.0902,-95.7129,2022-01-05
+sample_003,1,Brazil,-14.235,-51.9253,2022-01-10
+sample_004,1,Germany,51.1657,10.4515,2022-01-15
+sample_005,1,South Africa,-30.5595,22.9375,2022-01-20
+sample_006,1,Japan,36.2048,138.2529,2022-01-25
+sample_007,1,Australia,-25.2744,133.7751,2022-02-01
+sample_008,1,Russia,61.524,105.3188,2022-02-05
+sample_009,1,UK,55.3781,-3.436,2022-02-10
+sample_010,1,China,35.8617,104.1954,2022-02-15
